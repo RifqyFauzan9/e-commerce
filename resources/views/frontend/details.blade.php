@@ -4,14 +4,14 @@
         <div class="flex items-center flex-wrap mb-[38px] justify-between gap-5">
             <!-- Page Header -->
             <div class="flex flex-col gap-4 max-w-[430px]">
-                <div class="inline-flex gap-[6px] items-center bg-butter-yellow rounded-full px-4 py-[6px] w-max">
+                <div class="inline-flex gap-[6px] items-center bg-lavender-pink text-dark-indigo rounded-lg px-4 py-[10px] w-max">
                     <img src="{{ asset('assets/svgs/ic-champion-cup.svg') }}" alt="tickety-assets">
                     <p class="text-sm font-semibold text-dark-indigo">
                         Popular Event
                     </p>
                 </div>
 
-                <h1 class="text-5xl font-bold leading-normal">
+                <h1 class="text-5xl font-bold leading-normal uppercase">
                     {{ $event->name }}
                 </h1>
                 <p class="text-lg text-iron-grey">
@@ -62,8 +62,8 @@
         <div class="flex flex-wrap items-start justify-between gap-y-[30px]">
             <div>
                 <h5 class="text-[24px] md:text-[38px] font-bold">
-                    What <span class="text-butter-yellow">This</span> <br>
-                    <span class="text-butter-yellow">Event</span> About?
+                    What <span class="text-lavender-pink">This</span> <br>
+                    <span class="text-lavender-pink">Event</span> About?
                 </h5>
                 <p class="text-iron-grey text-lg leading-8 max-w-[640px] mt-4 mb-[30px]">
                     {{ $event->description }}

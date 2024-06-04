@@ -27,6 +27,8 @@ export default {
             },
             colors: {
                 "dark-indigo": "#0D0322",
+                "second-green": "#547A29",
+                "text-color": "#64A12D",
                 primary: "#27164B",
                 secondary: "#82D0DF",
                 "butter-yellow": "#F7FF82",

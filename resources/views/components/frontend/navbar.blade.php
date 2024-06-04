@@ -23,13 +23,13 @@
             <div
                 class="flex flex-col items-baseline gap-4 mt-6 lg:justify-between lg:flex-row lg:items-center lg:mt-0">
                 <div class="flex flex-col w-full ml-auto lg:w-auto gap-4 lg:gap-[50px] lg:items-center lg:flex-row">
-                    <a href="#!" class="nav-link-item">Flash Sale</a>
-                    <a href="#!" class="nav-link-item">Newest</a>
-                    <a href="#!" class="nav-link-item">Categories</a>
-                    <a href="#!" class="nav-link-item">Stories</a>
+                    <a href="#!" class="hover:text-lavender-pink transition duration-200 ease-in-out">Flash Sale</a>
+                    <a href="#!" class="hover:text-lavender-pink transition duration-200 ease-in-out">Newest</a>
+                    <a href="#!" class="hover:text-lavender-pink transition duration-200 ease-in-out">Categories</a>
+                    <a href="#!" class="hover:text-lavender-pink transition duration-200 ease-in-out">Stories</a>
                 </div>
                 <div class="flex flex-col w-full ml-auto lg:w-auto lg:gap-12 lg:items-center lg:flex-row">
-                    <a href="#!" class="btn-primary">
+                    <a href="#!" class="bg-lavender-pink py-3 px-6 rounded-lg font-semibold hover:ring-2 hover:ring-secondary hover:text-secondary transition ease-in-out duration-300">
                         Sign In
                     </a>
                 </div>

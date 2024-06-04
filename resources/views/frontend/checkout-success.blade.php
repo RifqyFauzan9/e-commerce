@@ -4,13 +4,13 @@
         <div class="container relative flex flex-col items-center justify-center max-w-screen-xl text-center">
             <img src="{{ asset('assets/svgs/ic-files.svg') }}" alt="tickety-assets">
             <h2 class="mt-[30px] text-[32px] font-bold">
-                Success Checkout
+                <span class="text-lavender-pink">Checkout</span> Success
             </h2>
-            <p class="mt-4 mb-10 text-lg leading-8 text-iron-grey">
+            <p class="mt-4 mb-5 text-lg leading-8 text-iron-grey">
                 We will send ticket details through your <br class="hidden md:block">
                 email, please sit tight and enjoy your time.
             </p>
-            <a href="{{ url('/') }}" class="btn-secondary px-[34px]">
+            <a href="{{ url('/') }}" class="bg-lavender-pink text-white hover:ring-2 hover:ring-secondary hover:text-secondary duration-300 transition ease-in-out py-3 px-6 rounded-lg font-semibold">
                 Book Other Ticket
             </a>
         </div>
